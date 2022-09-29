@@ -149,3 +149,28 @@ Is Ha(Alternate Hypothesis) true? No, H0(Null Hypothesis) is True (Ha is Negativ
 + A type II error occurs when the null it is actually false but we failed to reject it.
 
 ![image](https://user-images.githubusercontent.com/99672298/192961828-89b200c7-4145-4418-bf8c-d32609ef4168.png)
+
+## Q4. What is linear regression? What do the terms p-value, coefficient, and rsquared value mean? What is the significance of each of these components?
+
+Imagine you want to predict the price of a house. That will depend on some factors, called independent
+variables, such as location, size, year of construction… if we assume there is a linear relationship between
+these variables and the price (our dependent variable), then our price is predicted by the following
+function:
+
+![image](https://user-images.githubusercontent.com/99672298/192962967-52a3146f-2ec8-418c-ba98-80f1e78ba027.png)
+
+The p-value in the table is the minimum $\alpha$ (the significance level) at which the coefficient is relevant. The
+lower the p-value, the more important is the variable in predicting the price. Usually we set a 5% level, so
+that we have a 95% confidentiality that our variable is relevant.
+
+The p-value is used as an alternative to rejection points to provide the smallest level of significance at
+which the null hypothesis would be rejected. A smaller p-value means that there is stronger evidence in
+favor of the alternative hypothesis.
+
+The coefficient value signifies how much the mean of the dependent variable changes given a one-unit
+shift in the independent variable while holding other variables in the model constant. This property of
+holding the other variables constant is crucial because it allows you to assess the effect of each variable
+in isolation from the others.
+
+R squared (R2) is a statistical measure that represents the proportion of the variance for a dependent
+variable that's explained by an independent variable or variables in a regression model.
