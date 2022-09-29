@@ -74,6 +74,37 @@ sample.
 ![image](https://user-images.githubusercontent.com/99672298/192953627-72da4a4a-fc05-4e04-bff2-e9aaebad6c07.png)
 ![image](https://user-images.githubusercontent.com/99672298/192953662-e0cd5e9b-a4d3-4d6d-a850-7e327bcfc968.png)
 
+#### What is cluster sampling?
+Cluster sampling is a probability sampling technique where researchers divide the population into multiple groups (clusters) for research. Researchers then select random groups with a simple random or systematic random sampling technique for data collection and data analysis.
+
+            Example: A researcher wants to conduct a study to judge the performance of sophomore’s in business education across the U.S. 
+            It is impossible to conduct a research study that involves a student in every university. Instead, by using cluster sampling, 
+            the researcher can club the universities            from each city into one cluster. These clusters then define all the sophomore 
+            student population in the U.S. Next, either using simple random sampling or systematic random sampling and randomly pick clusters 
+            for the research study. Subsequently, by using simple or systematic sampling, the sophomore’s from each of these selected 
+            clusters can be chosen on whom to conduct the research study.
+
+In this sampling technique, researchers analyze a sample that consists of multiple sample parameters such as demographics, habits, background – or any other population attribute, which may be the focus of conducted research. This method is usually conducted when groups that are similar yet internally diverse form a statistical population. Instead of selecting the entire population, cluster sampling allows the researchers to collect data by bifurcating the data into small, more productive groups.
+
+#### Cluster sampling definition
+Cluster sampling is defined as a sampling method where the researcher creates multiple clusters of people from a population where they are indicative of homogeneous characteristics and have an equal chance of being a part of the sample.
+
+Example: Consider a scenario where an organization is looking to survey the performance of smartphones across Germany. They can divide the entire country’s population into cities (clusters) and select further towns with the highest population and also filter those using mobile devices.
+
+##### Types of cluster sampling
+There are two ways to classify this sampling technique. The first way is based on the number of stages followed to obtain the cluster sample, and the second way is the representation of the groups in the entire cluster analysis. In most cases, sampling by clusters happens over multiple stages. A stage is considered to be the step taken to get to the desired sample. We can divide this technique into single-stage, two-stage, and multiple stages.
+
+##### Single-stage cluster sampling: 
+As the name suggests, sampling is done just once. An example of single-stage cluster sampling – An NGO wants to create a sample of girls across five neighboring towns to provide education. Using single-stage sampling, the NGO randomly selects towns (clusters) to form a sample and extend help to the girls deprived of education in those towns.
+
+##### Two-stage cluster sampling: 
+Here, instead of selecting all the elements of a cluster, only a handful of members are chosen from each group by implementing systematic or simple random sampling. An example of two-stage cluster sampling – A business owner wants to explore the performance of his/her plants that are spread across various parts of the U.S. The owner creates clusters of the plants. He/she then selects random samples from these clusters to conduct research.
+
+##### Multiple stage cluster sampling: 
+Multiple-stage cluster sampling takes a step or a few steps further than two-stage sampling.
+
+For conducting effective research across multiple geographies, one needs to form complicated clusters that can be achieved only using the multiple-stage sampling technique. An example of Multiple stage sampling by clusters – An organization intends to survey to analyze the performance of smartphones across Germany. They can divide the entire country’s population into cities (clusters) and select cities with the highest population and also filter those using mobile devices.
+
 • **Multistage sampling:** A more complicated form of cluster sampling, this method also involves dividing the larger population into a number of clusters. Second-stage clusters are then broken out based on a secondary factor, and those clusters are then sampled and analyzed. This staging could continue as multiple subsets are identified, clustered and analyzed.
 
 • **Systematic sampling:** A sample is created by setting an interval at which to extract data from the larger population -- for example, selecting every 10th row in a spreadsheet of 200 items to create a sample size of 20 rows to analyze.
@@ -84,6 +115,7 @@ difficult to extrapolate whether the sample accurately represents the larger pop
 probability sampling is used.
 
 ![image](https://user-images.githubusercontent.com/99672298/192952665-855b8983-8fac-425d-8569-e79619b3ed19.png)
+![image](https://user-images.githubusercontent.com/99672298/192960298-567a388d-945b-41c1-b97b-ff2c7cf11d5e.png)
 
 #### Non-probability data sampling methods include:
 
