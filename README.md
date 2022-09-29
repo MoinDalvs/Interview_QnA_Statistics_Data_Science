@@ -34,3 +34,56 @@ This certainly looks more normal, and if we repeated this process one more time 
 ![image](https://user-images.githubusercontent.com/99672298/192943912-58135add-1950-4ad5-9945-4045456475b4.png)
 
 The above plots demonstrate that as the sample size N is increased, the resultant sample mean distribution becomes more normal. Further, the distribution variance also decreases. Keep in mind that the original population that we are sampling from was that weird ugly distribution above.
+
+## Q2. What is sampling? How many sampling methods do you know?
+
+#### **`Data sampling is a statistical analysis technique used to select, manipulate and analyze a representative subset of data points to identify patterns and trends in the larger data set being examined. It enables data scientists, predictive modelers and other data analysts to work with a small, manageable amount of data about a statistical population to build and run analytical models more quickly, while still producing accurate findings.`**
+
+Sampling can be particularly useful with data sets that are too large to efficiently analyze in full – for
+example, in big data analytics applications or surveys. Identifying and analyzing a representative sample
+is more efficient and cost-effective than surveying the entirety of the data or population.
+An important consideration, though, is the size of the required data sample and the possibility of
+introducing a sampling error. In some cases, a small sample can reveal the most important information
+about a data set. In others, using a larger sample can increase the likelihood of accurately representing
+the data as a whole, even though the increased size of the sample may impede ease of manipulation and
+interpretation.
+There are many different methods for drawing samples from data; the ideal one depends on the data set
+and situation. Sampling can be based on probability, an approach that uses random numbers that
+correspond to points in the data set to ensure that there is no correlation between points chosen for the
+sample.
+
+#### Further variations in probability sampling include:
+
+• **Simple random sampling:** Software is used to randomly select subjects from the whole population.
+
+• **Stratified sampling:** Subsets of the data sets or population are created based on a common factor, and samples are randomly collected from each subgroup.
+
+• **Cluster sampling:** The larger data set is divided into subsets (clusters) based on a defined factor, then a random sampling of clusters is analyzed.
+
+• **Multistage sampling:** A more complicated form of cluster sampling, this method also involves dividing the larger population into a number of clusters. Second-stage clusters are then broken out based on a secondary factor, and those clusters are then sampled and analyzed. This staging could continue as multiple subsets are identified, clustered and analyzed.
+
+• **Systematic sampling:** A sample is created by setting an interval at which to extract data from the larger population -- for example, selecting every 10th row in a spreadsheet of 200 items to create a sample size of 20 rows to analyze.
+
+Sampling can also be based on non-probability, an approach in which a data sample is determined and
+extracted based on the judgment of the analyst. As inclusion is determined by the analyst, it can be more
+difficult to extrapolate whether the sample accurately represents the larger population than when
+probability sampling is used.
+
+![image](https://user-images.githubusercontent.com/99672298/192952665-855b8983-8fac-425d-8569-e79619b3ed19.png)
+
+#### Non-probability data sampling methods include:
+
+• **Convenience sampling:** Data is collected from an easily accessible and available group.
+
+• **Consecutive sampling:** Data is collected from every subject that meets the criteria until the
+predetermined sample size is met.
+
+• **Purposive or judgmental sampling:** The researcher selects the data to sample based on predefined
+criteria.
+
+• **Quota sampling:** The researcher ensures equal representation within the sample for all subgroups
+in the data set or population (random sampling is not used).
+
+Once generated, a sample can be used for predictive analytics. For example, a retail business might use
+data sampling to uncover patterns about customer behavior and predictive modeling to create more
+effective sales strategies.
