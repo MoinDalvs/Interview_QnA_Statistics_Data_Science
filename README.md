@@ -133,3 +133,12 @@ in the data set or population (random sampling is not used).
 Once generated, a sample can be used for predictive analytics. For example, a retail business might use
 data sampling to uncover patterns about customer behavior and predictive modeling to create more
 effective sales strategies.
+
+## Q3. What is the difference between type I vs type II error?
+
+Is Ha(Alternate Hypothesis) true? No, H0(Null Hypothesis) is True (Ha is Negative: TN); Yes, H0 is False (Ha is Positive: TP).
+
++ A type I error occurs when the null hypothesis is true but it gets rejected. 
++ A type II error occurs when the null it is actually false but we failed to reject it.
+
+![image](https://user-images.githubusercontent.com/99672298/192961828-89b200c7-4145-4418-bf8c-d32609ef4168.png)
