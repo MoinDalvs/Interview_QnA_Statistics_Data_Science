@@ -58,7 +58,21 @@ sample.
 
 • **Stratified sampling:** Subsets of the data sets or population are created based on a common factor, and samples are randomly collected from each subgroup.
 
+    o EX: In the image below, let's say you need a sample size of 6. Two members from each
+      group (yellow, red, and blue) are selected randomly. Make sure to sample proportionally:
+      In this simple example, 1/3 of each group (2/6 yellow, 2/6 red and 2/6 blue) has been
+      sampled. If you have one group that's a different size, make sure to adjust your
+      proportions. For example, if you had 9 yellow, 3 red and 3 blue, a 5-item sample would
+      consist of 3/9 yellow (i.e. one third), 1/3 red and 1/3 blue.
+
 • **Cluster sampling:** The larger data set is divided into subsets (clusters) based on a defined factor, then a random sampling of clusters is analyzed.
+
+    o EX: In the image below, the strata are natural groupings by head color (yellow, red, blue).
+      A sample size of 6 is needed, so two of the complete strata are selected randomly (in this
+      example, groups 2 and 4 are chosen).
+
+![image](https://user-images.githubusercontent.com/99672298/192953627-72da4a4a-fc05-4e04-bff2-e9aaebad6c07.png)
+![image](https://user-images.githubusercontent.com/99672298/192953662-e0cd5e9b-a4d3-4d6d-a850-7e327bcfc968.png)
 
 • **Multistage sampling:** A more complicated form of cluster sampling, this method also involves dividing the larger population into a number of clusters. Second-stage clusters are then broken out based on a secondary factor, and those clusters are then sampled and analyzed. This staging could continue as multiple subsets are identified, clustered and analyzed.
 
