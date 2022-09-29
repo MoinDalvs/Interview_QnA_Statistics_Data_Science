@@ -23,6 +23,13 @@ In order to sample from the above distribution, we need to define a sample size,
 
 Suppose that we gather 1,000 samples of 3 from the above population. For each sample, we can compute its average. If we do that, we will have 1,000 averages. This set of 1,000 averages is called a sampling distribution, and according to Central Limit Theorem, the sampling distribution will approach a normal distribution as the sample size N used to produce it increases. Here is what our sample distribution looks like for N = 3.
 
+![image](https://user-images.githubusercontent.com/99672298/192962069-c51e2340-8ef5-4865-9f88-e5747cd6b8e5.png)
+![image](https://user-images.githubusercontent.com/99672298/192962310-d002d2b0-46ac-4c41-a161-357dc882e456.png)
+![image](https://user-images.githubusercontent.com/99672298/192962343-13872cbc-f1a3-42ad-aba1-668838f8e9b7.png)
+
+
+
+
 ![image](https://user-images.githubusercontent.com/99672298/192943838-cbd059c6-8a46-4d4a-9591-dec993a67d45.png)
 
 As we can see, it certainly looks uni-modal, though not necessarily normal. If we repeat the same process with a larger sample size, we should see the sampling distribution start to become more normal. Let’s repeat the same process again with N = 10. Here is the sampling distribution for that sample size.
