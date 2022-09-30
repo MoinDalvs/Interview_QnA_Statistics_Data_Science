@@ -235,3 +235,14 @@ There are several aspects of sampling bias, all of which ultimately mean that th
 A common example of this happening in practice is through self-selection. Specific groups of people may be drawn to taking part in a particular study because of self-selecting characteristics. It is known that individuals who are inclined to sensation-seeking, or thrill-seeking are more likely to take part in certain studies, which could skew data from a study if it is examining those personality traits (and possibly within other studies too).
 
 The best way around this bias is to draw from a sample that is not self-selecting. This may not always be possible of course, due to experimental constraints (particularly for studies requiring volunteers), but particular effort should be made to avoid the potential for this bias when examining different personality types. The effects of this bias are unlikely to be so detrimental if the experiment is concerned with something more constant, such as psychophysiological measurements.
+
+## Q8. What is an example of a data set with a non-Gaussian distribution?
+
+**Binomial:** multiple toss of a coin Bin(n,p): the binomial distribution consists of the probabilities of each of
+the possible numbers of successes on n trials for independent events that each have a probability of p of
+occurring.
+**Bernoulli:** Bin(1,p) = Be(p)
+**Poisson:** Pois(􀁋)
+
+![image](https://user-images.githubusercontent.com/99672298/193241749-c78af734-a2a3-4465-9298-92a86c0b1ee0.png)
+
