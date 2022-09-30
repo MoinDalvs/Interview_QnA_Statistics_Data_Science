@@ -176,12 +176,20 @@ variable that's explained by an independent variable or variables in a regressio
 
 ## Q5. What are the assumptions required for linear regression?
 
+![image](https://user-images.githubusercontent.com/99672298/193197114-28805a1b-2cf6-429b-b914-a9fde534c027.png)
+
 #### There should be linear relationship betweent the independent and dependent variables, either there can be a positive correlation or negative correlation.
+
+![image](https://user-images.githubusercontent.com/99672298/193197019-d50ecf74-8e00-43de-9563-e0498b2fd6c8.png)
 
 #### The Errors or residuals of the data to be Normally distributed ND~(0,1) and the variance of it should have homoscedasticity for any value of Independent Variable. There should be no autocorrelation among the errors nor postive or negative. There should be no relation between the Errors or any Independent Variable (also covers in Homoscedasticity of Error)
 
-#### Homoscedasticity. This means the variance around the regression line is the same for all values of the predictor variable.
+#### No Hetroscedasticity but Homoscedasticity. This means the variance around the regression line is the same for all values of the predictor variable.
+
+![image](https://user-images.githubusercontent.com/99672298/193196616-4d3ca6da-d9e1-435b-ad70-d1f995596859.png)
 
 #### All The Variables should be Normally Distributed
 
 #### The Variables Independent or Dependent should be Normally Distributed
+
+![image](https://user-images.githubusercontent.com/99672298/193196509-11a2ed2c-ccb1-47fb-a59c-11d52e6b6c80.png)
