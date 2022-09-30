@@ -193,3 +193,34 @@ variable that's explained by an independent variable or variables in a regressio
 #### The Variables Independent or Dependent should be Normally Distributed
 
 ![image](https://user-images.githubusercontent.com/99672298/193196509-11a2ed2c-ccb1-47fb-a59c-11d52e6b6c80.png)
+
+## Q6. What is a statistical interaction?
+
+Basically, an interaction is when the effect of one factor (input variable) on the dependent variable (output variable) differs among levels of another  factor.
+For example, in a pain relief drug trial, one factor is “dose” and another factor is “gender”. The dependent variable is “headache pain” (measured on a scale of 0 to 50). We can look at the findings by showing the means for each group in a table like this:
+
+![image](https://user-images.githubusercontent.com/99672298/193201706-b32a347d-d0e9-49e5-9633-9cad682744c6.png)
+
+If compare the “marginal means”, we can see that the average pain score for women was 20 and the average pain score for men was 20. There is no difference in headache pain between men and women. Likewise, the drug appears to have no effect on headache pain.
+
+However, if we had stopped there, we would be missing some important findings. There is an interaction between gender and dose on headache pain. If we graph the means of each group, we can see it clearly: men have more headache pain than women unless they take the drug. There are simple effects of dose for both men and women, but the effects “wash out” one another. The result is no main effect of dose or gender. If you did not examine gender, it would appear that your drug did not work; if you did not study drug dose, you would see no difference between men and women. Examining the interaction allows us to see that the drug works – for men – AND that it causes pain in women.
+
+![image](https://user-images.githubusercontent.com/99672298/193201783-6b13cb4c-539a-4eab-b824-217cc593efef.png)
+
+This is called a “pure interaction” because there are no main effects, but there is an interaction.
+
+More commonly seen, however, when effects occur in both (or all) conditions, but they are stronger in one condition than another. Also fairly common is an effect in one condition (or for one group), but no effect at all in another. For example, what if our same pain study resulted in the following means:
+
+![image](https://user-images.githubusercontent.com/99672298/193201826-4442bfe9-b88d-47e2-8c1a-f70b3af87f87.png)
+
+For men, there is no effect of the drug on headache pain. The drug causes pain in women, who would otherwise have the same amount of pain as men.
+
+![image](https://user-images.githubusercontent.com/99672298/193201879-6c03c529-a7fe-4557-99ff-d8e59ef2334c.png)
+
+To recap, When two or more independent variables are involved in
+a research design, there is more to consider than simply the "main effect" of each of the independent variables (also termed "factors"). That is, the effect of one independent variable on the dependentvariable of interest may not be the same at all levels of the other independent variable. Another way to put this is that the effect of one independent variable may depend on the level of the other independent variable. In order to find an interaction, you must have a factorial design, in which the two (or more) independent variables are "crossed" with one another so that there are observations at every combination of levels of the two independent variables. 
+
+EX: stress level and practice to memorize words:
+together they may have a lower performance.
+
+
