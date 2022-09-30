@@ -173,3 +173,15 @@ in isolation from the others.
 
 R squared ( $R^2$ ) is a statistical measure that represents the proportion of the variance for a dependent
 variable that's explained by an independent variable or variables in a regression model.
+
+## Q5. What are the assumptions required for linear regression?
+
+#### There should be linear relationship betweent the independent and dependent variables, either there can be a positive correlation or negative correlation.
+
+#### The Errors or residuals of the data to be Normally distributed ND~(0,1) and the variance of it should have homoscedasticity for any value of Independent Variable. There should be no autocorrelation among the errors nor postive or negative. There should be no relation between the Errors or any Independent Variable (also covers in Homoscedasticity of Error)
+
+#### Homoscedasticity. This means the variance around the regression line is the same for all values of the predictor variable.
+
+#### All The Variables should be Normally Distributed
+
+#### The Variables Independent or Dependent should be Normally Distributed
