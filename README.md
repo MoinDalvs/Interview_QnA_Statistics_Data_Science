@@ -223,4 +223,15 @@ a research design, there is more to consider than simply the "main effect" of ea
 EX: stress level and practice to memorize words:
 together they may have a lower performance.
 
+## Q7. What is selection bias?
 
+#### Sampling Bias
+
+Selection (or ‘sampling’) bias occurs when the sample data that is gathered and prepared for modeling
+has characteristics that are not representative of the true population
+
+There are several aspects of sampling bias, all of which ultimately mean that the population being studied does not provide the data that we require to make conclusions.
+
+A common example of this happening in practice is through self-selection. Specific groups of people may be drawn to taking part in a particular study because of self-selecting characteristics. It is known that individuals who are inclined to sensation-seeking, or thrill-seeking are more likely to take part in certain studies, which could skew data from a study if it is examining those personality traits (and possibly within other studies too).
+
+The best way around this bias is to draw from a sample that is not self-selecting. This may not always be possible of course, due to experimental constraints (particularly for studies requiring volunteers), but particular effort should be made to avoid the potential for this bias when examining different personality types. The effects of this bias are unlikely to be so detrimental if the experiment is concerned with something more constant, such as psychophysiological measurements.
