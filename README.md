@@ -241,8 +241,66 @@ The best way around this bias is to draw from a sample that is not self-selectin
 **Binomial:** multiple toss of a coin Bin(n,p): the binomial distribution consists of the probabilities of each of
 the possible numbers of successes on n trials for independent events that each have a probability of p of
 occurring.
-**Bernoulli:** Bin(1,p) = Be(p)
-**Poisson:** Pois(􀁋)
+
+![image](https://user-images.githubusercontent.com/99672298/193248313-90e3626e-be0c-49de-b72f-8d13bd0f2de7.png)
+
++ The binomial distribution is a probability distribution in statistics that summarizes the likelihood that a value will take one of two independent values under a given set of parameters or assumptions.
++ The underlying assumptions of the binomial distribution are that there is only one outcome for each trial, that each trial has the same probability of success, and that each trial is mutually exclusive or independent of one another.
++ The binomial distribution is a common discrete distribution used in statistics, as opposed to a continuous distribution, such as the normal distribution.
+
+##### Understanding Binomial Distribution
+To start, the “binomial” in binomial distribution means two terms. We’re interested not just in the number of successes, nor just the number of attempts, but in both. Each is useless to us without the other.
+
+The binomial distribution is a common discrete distribution used in statistics, as opposed to a continuous distribution, such as the normal distribution. This is because the binomial distribution only counts two states, typically represented as 1 (for a success) or 0 (for a failure) given a number of trials in the data. The binomial distribution thus represents the probability for x successes in n trials, given a success probability p for each trial.
+
+Binomial distribution summarizes the number of trials, or observations when each trial has the same probability of attaining one particular value. The binomial distribution determines the probability of observing a specified number of successful outcomes in a specified number of trials.
+
+##### Analyzing Binomial Distribution
+The expected value, or mean, of a binomial distribution is calculated by multiplying the number of trials (n) by the probability of successes (p), or n x p.
+For example, the expected value of the number of heads in 100 trials of heads or tales is 50, or (100 * 0.5). Another common example of the binomial distribution is by estimating the chances of success for a free-throw shooter in basketball where 1 = a basket is made and 0 = a miss.
+
+The binomial distribution formula is calculated as:
+
+![image](https://user-images.githubusercontent.com/99672298/193249026-76289772-d65c-43d7-9629-493f21857ef5.png)
+
+where:
+
++ n is the number of trials (occurrences)
++ X is the number of successful trials
++ p is probability of success in a single trial
++ nCx is the combination of n and x. A combination is the number of ways to choose a sample of x elements from a set of n distinct objects where order does not matter and replacements are not allowed. Note that nCx=n!/(r!(n−r)!), where ! is factorial (so, 4! = 4 x 3 x 2 x 1)
+
+The mean of the binomial distribution is np, and the variance of the binomial distribution is np (1 − p). When p = 0.5, the distribution is symmetric around the mean. When p > 0.5, the distribution is skewed to the left. When p < 0.5, the distribution is skewed to the right.
+
+The binomial distribution is the sum of a series of multiple independent and identically distributed Bernoulli trials. In a Bernoulli trial, the experiment is said to be random and can only have two possible outcomes: success or failure.
+
+For instance, flipping a coin is considered to be a Bernoulli trial; each trial can only take one of two values (heads or tails), each success has the same probability (the probability of flipping a head is 0.5), and the results of one trial do not influence the results of another.
+ The Bernoulli distribution is a special case of the binomial distribution where the number of trials n = 1
+ 
+### **Bernoulli:** Bin(1,p) = Be(p)
+
+![image](https://user-images.githubusercontent.com/99672298/193246169-89660fdf-2490-4687-8491-33e4953c1e5e.png)
+
+### **Poisson:** Pois ( $\lambda$ )
+
+#### What Is a Poisson Distribution?
+In statistics, a Poisson distribution is a probability distribution that is used to show how many times an event is likely to occur over a specified period. In other words, it is a count distribution. Poisson distributions are often used to understand independent events that occur at a constant rate within a given interval of time.
+
+Poisson distributions are used when the variable of interest is a discrete count variable.
+Many economic and financial data appear as count variables, such as how many times a person becomes unemployed in a given year, thus lending themselves to analysis with a Poisson distribution.
+
+Understanding Poisson Distributions
+A Poisson distribution can be used to estimate how likely it is that something will happen "X" number of times. For example, if the average number of people who buy cheeseburgers from a fast-food chain on a Friday night at a single restaurant location is 200, a Poisson distribution can answer questions such as, "What is the probability that more than 300 people will buy burgers?" The application of the Poisson distribution thereby enables managers to introduce optimal scheduling systems that would not work with, say, a normal distribution.
+
+One of the most famous historical, practical uses of the Poisson distribution was estimating the annual number of Prussian cavalry soldiers killed due to horse-kicks. Modern examples include estimating the number of car crashes in a city of a given size; in physiology, this distribution is often used to calculate the probabilistic frequencies of different types of neurotransmitter secretions. Or, if a video store averaged 400 customers every Friday night, what would have been the probability that 600 customers would come in on any given Friday night?
+
+##### The Formula for the Poisson Distribution Is
+
+![image](https://user-images.githubusercontent.com/99672298/193243894-f4afa319-d542-479a-a1fa-d263daa37dce.png)
+![image](https://user-images.githubusercontent.com/99672298/193244053-bd9b02ef-96d0-4206-892a-c1eb53170a7f.png)
+
+In the example depicted in the graph above, assume that some operational process has an error rate of 3%. If we further assume 100 random trials, the Poisson distribution describes the likelihood of getting a certain number of errors over some period of time, such as a single day.
 
 ![image](https://user-images.githubusercontent.com/99672298/193241749-c78af734-a2a3-4465-9298-92a86c0b1ee0.png)
+
 
